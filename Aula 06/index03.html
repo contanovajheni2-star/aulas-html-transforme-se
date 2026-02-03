@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url(nyan-cat-rainbow.gif);
+             color: azure; 
+             background-repeat: no-repeat;
+             background-size:100% 100%;
+             background-attachment: fixed; 
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Imagem de Fundo</h1>
+    <p>Exemplos de Imagens de fundo</p>
+
+    <!-- <p style="background-image: url(passaro.png);" >Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Sint repudiandae, itaque obcaecati neque quia<br />voluptate tenetur at mollitia,<br /> veniam totam blanditiis tempora vero consequatur ea magnic <br />quibusdam, harum reiciendis est.</p> -->
+
+    <picture>
+        <source media="(min-width: 650px)" 
+        srcset="workplace.png">
+        <source media="(min-width: 465px)"
+        srcset="nyan-cat-rainbow">
+        <img src="passaro.png"
+        
+    </picture>
+
+</body>
+</html>
